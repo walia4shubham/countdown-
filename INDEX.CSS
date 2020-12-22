@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    /* font-family: 'poppins', sans-serif; */
+}
+
+body{
+    background: url(debby-hudson-FnlZzLe6vSE-unsplash.jpg) no-repeat center center/cover ;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /* justify-content: center; */
+    align-items: center;
+    /* color: red; */
+}
+h1{
+    font-size: 3rem;
+    font-weight: normal;
+    /* margin-top: -10rem; */
+}
+
+.countdown-container{
+    display: flex;
+    min-height: 75vh;
+    /* font-size: 10rem; */
+    
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 5rem;
+    margin: 0 1rem;
+}
+.countdown-el{
+text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.1rem  ;
+}
+@media (min-width:500px ) and (max-width:700px){
+   h1{
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+   }
+
+}
+@media (max-width:500px){
+    h1{
+        font-size: 1rem;
+    }
+    .countdown-container{
+        /* font-size: 10rem; */
+        /* display: flex;
+        flex-direction: column; */
+
+    }
+    .big-text{
+        font-size: 3.5rem;
+    }
+
+}
+img {
+    width: 100%;
+    height: auto;
+  }
